@@ -23,5 +23,3 @@ This project is a simple web application that allows users to search for song ly
 ## GitHub Repository:
 [https://github.com/tugaycay/lyrics-finder](https://github.com/tugaycay/lyrics-finder)
 
-## Live Project URL:
-[https://tugaycay.github.io/lyrics-finder](https://tugaycay.github.io/lyrics-finder)
