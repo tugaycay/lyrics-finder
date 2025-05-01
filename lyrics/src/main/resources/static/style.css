@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e3a8a;
+}
+
+
+/* Konteyner */
+.container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 2rem;
+    width: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Başlık */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    color: #1e3a8a;
+}
+
+/* Form düzeni */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;  /* Açık gri border */
+    background-color: #f8fafc;
+    color: #1e3a8a;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #3b82f6;  /* RGB mavi buton rengi */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:active {
+    background-color: #2563eb;  /* Daha koyu mavi */
+    transform: scale(0.98);
+}
+
+/* Şarkı sözleri bölümü */
+.lyrics {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    background-color: #f1f5f9;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: 300px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    color: #1e3a8a;
+}
+
+/* Logo */
+.logo img {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Mobil uyum */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+}

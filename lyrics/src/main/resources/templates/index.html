@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Lyrics Finder</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="logo">
+        <img src="/images/i2i.png" alt="Logo">
+
+    </div>
+    <h1>🎤Lyrics Finder🎶</h1>
+    <form action="/lyrics" method="get">
+        <input type="text" name="artist" placeholder="Artist name" th:value="${artist}">
+        <input type="text" name="title" placeholder="Song title" th:value="${title}">
+        <button type="submit">Get Lyrics</button>
+    </form>
+
+    <div class="lyrics" th:if="${lyrics}">
+        <h2>Lyrics:</h2>
+        <pre th:text="${lyrics}"></pre>
+    </div>
+</div>
+</body>
+</html>
