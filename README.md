@@ -14,11 +14,7 @@ This project is a simple web application that allows users to search for song ly
 - Displays the lyrics on the webpage.
 - Simple and clean design with blue gradient background and responsive layout.
 
-## How to Run:
-1. Clone the repository.
-2. Set up a Java environment with Spring Boot.
-3. Build and run the Spring Boot application.
-4. Access the application in your web browser.
+
 
 ## GitHub Repository:
 [https://github.com/tugaycay/lyrics-finder](https://github.com/tugaycay/lyrics-finder)
